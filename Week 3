@@ -1,0 +1,69 @@
+# 1
+default = 65
+speed = int(input('Enter a speed:' ))
+
+if speed >= default:
+        print('The fast - fine')
+
+else:
+    print('No fine')
+
+# 2
+amount = int((input('\n' )))
+print('Enter a number', amount)
+
+if amount % 2 == 0:
+      print('even Number')
+
+
+# 3
+time = int(input('please enter a time' ))
+
+if time <= 100:
+
+ print('stage 1')
+
+if time <= 170:
+     print('stage 2')
+
+if time <= 260:
+     print('stage 3')
+
+else: 
+     print('free flight')
+
+#4
+defaultNew = int(input('Enter a Tempeture:' ))
+if defaultNew >= 40:
+     print('print too hot - stay inside!')
+
+if defaultNew >= 30:
+     print('Hot - breach time!')
+
+if defaultNew >= 20:
+     print('Lovely day - how about a picnic!?!')
+
+if defaultNew >= 10:
+     print('on the cold side - better take a jacket!')
+
+if defaultNew <= 10:
+     print('way too cold - stoke up the fire!')
+
+#5
+import random;
+defaultA = int(5)
+
+random.randint(1,10)
+
+if random > defaultA:
+     print('too bad - better luck next time!')
+
+if random < defaultA:
+     print('too bad - better luck next time!')
+
+if random == defaultA:
+     print("Well done you guessed it")
+
+#6
+
+
